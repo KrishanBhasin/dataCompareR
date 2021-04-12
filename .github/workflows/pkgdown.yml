@@ -4,7 +4,10 @@ on:
       - fix-docs
 
 name: pkgdown
-
+defaults:
+  run:
+    working-directory: dataCompareR
+    
 jobs:
   pkgdown:
     runs-on: macOS-latest
