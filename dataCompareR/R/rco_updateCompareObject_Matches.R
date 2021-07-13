@@ -16,6 +16,7 @@
 #' @param x List of class 'matches' with column matching info
 #' @param compObj dataCompareRobject instance to be updated
 #' @return \code{compObj} Updated dataCompareRobject
+#' @keywords internal
 updateCompareObject.matches <- function(x, compObj){
   compObj$matches <- x
   return(compObj)

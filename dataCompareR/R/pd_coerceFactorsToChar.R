@@ -15,6 +15,7 @@
 #' 
 #' @param DF Input dataframe 
 #' @return \code{DF} with factor fields converted to character type
+#' @keywords internal
 #' @examples 
 #' \dontrun{coerceFactorsToChar(iris)}
 

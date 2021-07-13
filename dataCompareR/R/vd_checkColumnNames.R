@@ -15,6 +15,7 @@
 #'
 #' @param df1 a data frame
 #' @return None. Stops if error.
+#' @keywords internal
 #' @examples
 #' \dontrun{checkForRcompareCol(iris)}
 checkForRCompareCol <- function(df1) {
